@@ -43,6 +43,11 @@ input[type="text"] {
 .response-container {
   border-radius: 10px;
   border: 2px solid #ccc;
-  padding: 20px;
-  margin-top: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+  white-space: pre-wrap; /* Maintain line breaks */
+  word-wrap: break-word; /* Wrap long words */
+  overflow-wrap: break-word; /* Handle overflowing text */
+  box-sizing: border-box; /* Include padding and borders in element's width */
 }

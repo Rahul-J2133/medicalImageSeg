@@ -1,0 +1,49 @@
+/* Add a class to handle the size and wrapping for the insight text */
+.insight-response {
+    padding: 15px;
+    padding: 15px;                      /* Space inside the box */
+    margin-top: 20px;                   /* Space above the box */
+    border-radius: 5px;                 /* Rounded corners */
+    border: 1px solid #ddd;             /* Light border */
+    max-width: 100%;                    /* Full width of parent container */
+    width: 100%;                        /* Ensures it takes the full width */
+    max-height: 100%;                  /* Maximum height for scrolling */
+    overflow-y: auto;                   /* Enable vertical scroll for overflow */
+    white-space: normal;                /* Normal wrapping behavior */
+    word-wrap: break-word;              /* Break words that exceed container width */
+    overflow-wrap: break-word;          /* Additional support for breaking long words */
+    box-sizing: border-box;             /* Include padding and border in element's total width/height */
+    font-family: Arial, sans-serif;     /* Font styling */
+    text-align: justify;
+    font-size: 24px;
+  }
+  
+  /* Constrain the image size and ensure it aligns with the text */
+  .infected-container img {
+    max-width: 100%; /* Ensure image is responsive and within the container */
+    height: auto;
+  }
+  
+  textarea {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%; /* Make the textarea fit within the container */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
